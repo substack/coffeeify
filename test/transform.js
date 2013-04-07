@@ -13,7 +13,7 @@ test('transform adds sourcemap comment', function (t) {
     fs.createReadStream(file)
         .pipe(transform(file))
         .pipe(through(write, end));
-    
+
     function write (buf) { data += buf }
     function end () {
         var sourceMap = convert.fromSource(data).toObject();
