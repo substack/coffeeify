@@ -28,7 +28,14 @@ module.exports = function (file) {
 
     function write (buf) { data += buf }
     function end () {
-        this.queue(compile(file, data));
+        try{
+          this.queue(compile(file, data));
+        }catch(err){
+          var message = "can't compile '" + file + "'!";
+          this.queue("throw new Error(\"" + message + "\")");
+          console.error(message);
+          console.error(err);
+        }
         this.queue(null);
     }
 };
