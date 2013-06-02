@@ -4,9 +4,9 @@ browserify v2 plugin for coffee-script
 
 mix and match `.coffee` and `.js` files in the same project
 
-**important: when using require('path/to/file.coffee') remember to use .coffee extension**
+**important: when using require('path/to/file.coffee') remember to use .coffee extension - soon to be fixed, [the browserify devs have relented](https://github.com/shtylman/node-browser-resolve/issues/20#issuecomment-18303661)! go [+1 this pr](https://github.com/shtylman/node-browser-resolve/pull/12) until it gets merged :-)**
 
-[![build status](https://secure.travis-ci.org/substack/coffeeify.png)](http://travis-ci.org/substack/coffeeify)
+[![build status](https://secure.travis-ci.org/jnordberg/coffeeify.png)](http://travis-ci.org/jnordberg/coffeeify)
 
 # example
 
@@ -55,8 +55,3 @@ npm install coffeeify
 # license
 
 MIT
-
-# maintainers wanted
-
-I am not a coffee-script user so if you use this plugin regularly and want to
-take it over I will gladly add you as a maintainer on npm.

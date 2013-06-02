@@ -1,6 +1,6 @@
 {
     "name": "coffeeify",
-    "version": "0.4.1",
+    "version": "0.5.1",
     "description": "browserify v2 plugin for coffee-script with support for mixed .js and .coffee files",
     "main": "index.js",
     "dependencies": {
@@ -10,16 +10,16 @@
     },
     "devDependencies": {
         "tap": "~0.4.0",
-        "browserify": "~2.4.0"
+        "browserify": "2.x"
     },
     "scripts": {
         "test": "tap test/*.js"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/substack/coffeeify.git"
+        "url": "git://github.com/jnordberg/coffeeify.git"
     },
-    "homepage": "https://github.com/substack/coffeeify",
+    "homepage": "https://github.com/jnordberg/coffeeify",
     "keywords": [
         "coffee-script",
         "browserify",
@@ -28,10 +28,17 @@
         "plugin",
         "transform"
     ],
-    "author": {
-        "name": "James Halliday",
-        "email": "mail@substack.net",
-        "url": "http://substack.net"
-    },
+    "contributors": [
+        {
+            "name": "James Halliday",
+            "email": "mail@substack.net",
+            "url": "http://substack.net"
+        },
+        {
+            "name": "Johan Nordberg",
+            "email": "code@johan-nordberg.com",
+            "url": "http://johan-nordberg.com"
+        }
+    ],
     "license": "MIT"
 }
