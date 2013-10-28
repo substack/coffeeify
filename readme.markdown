@@ -1,5 +1,7 @@
 # coffeeify
 
+## Development of coffeeify has moved. Please refer to [https://github.com/jnordberg/coffeeify](https://github.com/jnordberg/coffeeify) for updates and to report issues.
+
 browserify v2 plugin for coffee-script
 
 mix and match `.coffee` and `.js` files in the same project
