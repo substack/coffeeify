@@ -4,13 +4,13 @@
     "description": "browserify v2 plugin for coffee-script with support for mixed .js and .coffee files",
     "main": "index.js",
     "dependencies": {
-        "coffee-script": "~1.6.2",
-        "through": "~2.2.0",
-        "convert-source-map": "~0.2.1"
+        "coffee-script": "~1.6.3",
+        "through": "~2.3.4",
+        "convert-source-map": "~0.2.6"
     },
     "devDependencies": {
-        "tap": "~0.4.0",
-        "browserify": "~2.4.0"
+        "tap": "~0.4.4",
+        "browserify": "~2.35.0"
     },
     "scripts": {
         "test": "tap test/*.js"
